@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soul Inmobiliaria</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .content-box {
+      background-color: #f3f4f6;
+      color: #000;
+      padding: 1rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    body {
+      background-color: #8b8f97;
+    }
+  </style>
+</head>
+<body class="font-sans text-black">
+  <header class="bg-blue-800 text-white fixed w-full top-0 z-50 shadow-lg">
+    <nav class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold">Soul Inmobiliaria</h1>
+      <ul class="flex space-x-4">
+        <li><a href="index.html" class="hover:underline">Inicio</a></li>
+        <li><a href="nosotros.html" class="hover:underline">Nosotros</a></li>
+        <li><a href="servicios.html" class="hover:underline">Servicios</a></li>
+        <li><a href="propiedades.html" class="hover:underline">Propiedades</a></li>
+        <li><a href="contacto.html" class="hover:underline">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="pt-24 container mx-auto px-4 py-12">
+
+      <div class="content-box">
+        <h2 class="text-3xl font-bold mb-4">Contacto</h2>
+        <p>¿Querés comprar, vender o alquilar una propiedad? ¡Escribinos!</p>
+        <p><strong>Email:</strong> inmobiliariasoul37@gmail.com</p>
+        <p><strong>Teléfonos:</strong> 3834-340431 / 3834-371756</p>
+        <p><strong>Ubicación:</strong> Catamarca Capital, Argentina</p>
+        <form class="mt-4 space-y-3">
+          <input type="text" placeholder="Tu nombre" class="w-full p-2 border rounded" />
+          <input type="email" placeholder="Tu email" class="w-full p-2 border rounded" />
+          <textarea placeholder="Tu mensaje" class="w-full p-2 border rounded"></textarea>
+          <button type="submit" class="bg-blue-800 text-white px-4 py-2 rounded hover:bg-blue-900">Enviar</button>
+        </form>
+      </div>
+    
+  </main>
+  <footer class="bg-blue-800 text-white py-6 mt-12">
+    <div class="container mx-auto text-center">
+      <p>Soul Inmobiliaria - Catamarca Capital, Argentina</p>
+      <p>Email: inmobiliariasoul37@gmail.com | Tel: 3834-340431 / 3834-371756</p>
+      <p>&copy; 2025 Soul Inmobiliaria. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
